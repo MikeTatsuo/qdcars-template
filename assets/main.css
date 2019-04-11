@@ -6,28 +6,31 @@ a:hover {
     cursor: pointer;
 }
 input[type="email"]::placeholder {
-    color: black;
+    color: #000;
     font-size: small;
 }
 input[type="email"]::-moz-placeholder {
-    color: black;
+    color: #000;
     font-size: small;
 }
 input[type="email"]::-webkit-input-placeholder {
-    color: black;
+    color: #000;
     font-size: small;
 }
 input[type="search"]::placeholder {
-    color: white;
+    color: #fff;
     font-size: x-small;
+    border-color: #999!important;
 }
 input[type="search"]::-moz-placeholder {
-    color: white;
+    color: #fff;
     font-size: x-small;
+    border-color: #999!important;
 }
 input[type="search"]::-webkit-input-placeholder {
-    color: white;
+    color: #fff;
     font-size: x-small;
+    border-color: #999!important;
 }
 
 /* classes */
@@ -35,6 +38,10 @@ input[type="search"]::-webkit-input-placeholder {
     width: 395px;
     height: 220px;
     line-height: 220px;
+}
+.comprar {
+    border: 1px solid!important;
+    color: #009200!important;;
 }
 .container-fluid {
     overflow: hidden;
@@ -51,15 +58,45 @@ input[type="search"]::-webkit-input-placeholder {
 .font-xs {
     font-size: x-small;
 }
+.footer-bg1{
+    background: #e4e4e4;
+}
+.footer-bg2 {
+    background: #333;
+}
+.footer-banner{
+    background:#999;
+}
+.frete-gratis {
+    background: #0082a7;
+}
 .img-fluid {
     width: 100vw
 }
-.preco {
-    color: red;
+.nav-bg {
+    background: #333;
 }
-.produto_img {
+.novo {
+    background: #000;
+}
+.oferta {
+    background: #de006f;
+}
+.preco {
+    color: #f8595f;
+}
+.preco-antigo {
+    color: #999;
+}
+.produto-img {
     width: 190px;
     height: 190px;
+}
+.search-border{
+    border-bottom: 1px solid #999!important;
+    border-top-width: 0px!important;
+    border-right-width: 0px!important;
+    border-left-width: 0px !important;
 }
 .social-logos {
     width: 25px;
@@ -68,5 +105,5 @@ input[type="search"]::-webkit-input-placeholder {
 
 /* ids */
 #shopping-cart {
-    color: red;
+    color: #f8595f;
 }

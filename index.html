@@ -16,7 +16,7 @@
 <body>
     <div class="container-fluid p-0">
         <header>
-            <nav class="navbar navbar-dark bg-dark text-white px-0">
+            <nav class="navbar navbar-dark nav-bg text-white px-0">
                 <div class="row w-100 font-xs">
                     <div class="col">
                         Olá, bem-vindo!
@@ -106,7 +106,7 @@
                     <div class="col-3">
                         <div class="input-group">
                             <input
-                                class="form-control p-0 border-white border-top-0 border-left-0 border-right-0 border-bottom rounded-0 bg-transparent"
+                                class="form-control p-0 search-border rounded-0 bg-transparent"
                                 type="search" placeholder="Estou procurando por..." aria-label="Search">
                             <div class="input-group-prepend">
                                 <button class="btn btn-link p-0" type="submit">
@@ -158,25 +158,25 @@
                 <h3 class="text-center"><b>MAIS DESEJADOS</b></h3>
                 <div class="row mb-5">
                     <div class="col-3 text-center p-3">
-                        <div class="bg-dark text-white float-left font-xs">
-                            <span class="far fa-star"></span> novo
+                        <div class="novo text-white float-left font-xs">
+                            <span class="fas fa-star"></span> novo
                         </div>
                         <div class="float-right d-flex flex-column text-white font-xs">
-                            <div class="bg-primary">
+                            <div class="frete-gratis">
                                 <span class="fas fa-truck"></span> frete grátis
                             </div>
-                            <div class="bg-danger align-self-end">
+                            <div class="oferta align-self-end">
                                 <span class="fas fa-certificate"></span> oferta
                             </div>
                         </div>
-                        <img class="produto_img" src="./assets/images/produto.jpg">
+                        <img class="produto-img" src="./assets/images/produto.jpg">
                         <b>
                             <p class="font-s">LOREM IPSUM DOLOR SIT LOREM IPSUM DOLOR SIT AMET</p>
-                            <p class="font-s"><s>R$280</s> <span class="preco">R$ 190,00</span><br>
+                            <p class="font-s"><s class="preco-antigo">R$280</s> <span class="preco">R$ 190,00</span><br>
                                 12x de R$ 66,00</p>
                         </b>
-                        <button class="btn btn-outline-success rounded-0 py-0 px-2 font-s"><span
-                                class="fas fa-shopping-bag">
+                        <button class="comprar btn rounded-0 py-0 px-2 font-s" onclick="alert('Enviar para o carrinho')"><span
+                                class="fas fa-shopping-bag"></span>
                                 COMPRAR
                         </button>
                     </div>
@@ -184,7 +184,7 @@
             </section>
         </main>
 
-        <footer class="bg-secondary">
+        <footer class="footer-bg1">
             <div class="row p-3 mb-5">
                 <div class="col-12">
                     <h3 class="text-center mb-4"><b>RECEBA AS NOVIDADES</b></h3>
@@ -218,7 +218,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row bg-dark text-light p-4">
+            <div class="row footer-bg2 text-light p-4">
                 <div class="col-3">
                     <p class="font-s">
                         PRECISA DE AJUDA?
@@ -305,7 +305,7 @@
                 </div>
                 <div class="col-6">
                     <img class="float-right" src="./assets/images/quatro_design.png">
-                    <img class="float-right" src="./assets/images/powered_by_vtex.png">
+                    <img class="float-right mr-3" src="./assets/images/powered_by_vtex.png">
                 </div>
             </div>
         </footer>
