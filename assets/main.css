@@ -1,0 +1,72 @@
+/* organizado por tipos e em ordem alfabética */
+
+/* tags */
+
+a:hover {
+    cursor: pointer;
+}
+input[type="email"]::placeholder {
+    color: black;
+    font-size: small;
+}
+input[type="email"]::-moz-placeholder {
+    color: black;
+    font-size: small;
+}
+input[type="email"]::-webkit-input-placeholder {
+    color: black;
+    font-size: small;
+}
+input[type="search"]::placeholder {
+    color: white;
+    font-size: x-small;
+}
+input[type="search"]::-moz-placeholder {
+    color: white;
+    font-size: x-small;
+}
+input[type="search"]::-webkit-input-placeholder {
+    color: white;
+    font-size: x-small;
+}
+
+/* classes */
+.banner {
+    width: 395px;
+    height: 220px;
+    line-height: 220px;
+}
+.container-fluid {
+    overflow: hidden;
+}
+.font-lg {
+    font-size: large;
+}
+.font-s {
+    font-size: small;
+}
+.font-xlg {
+    font-size: x-large;
+}
+.font-xs {
+    font-size: x-small;
+}
+.img-fluid {
+    width: 100vw
+}
+.preco {
+    color: red;
+}
+.produto_img {
+    width: 190px;
+    height: 190px;
+}
+.social-logos {
+    width: 25px;
+    height: 25px;
+}
+
+/* ids */
+#shopping-cart {
+    color: red;
+}
