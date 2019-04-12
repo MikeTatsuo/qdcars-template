@@ -14,302 +14,294 @@
 </head>
 
 <body>
-    <div class="container-fluid p-0">
-        <header>
-            <nav class="navbar navbar-dark nav-bg text-white px-0">
-                <div class="row w-100 font-xs">
-                    <div class="col">
-                        Olá, bem-vindo!
-                    </div>
-                    <div class="col-1">
-                        <a onclick="alert('Página de Meus pedidos')">Meus pedidos</a>
-                    </div>
-                    <div class="col-1">
-                        <a onclick="alert('Página de Atendimento')">Atendimento</a>
-                    </div>
-                </div>
-                <div class="row w-100">
-                    <div class="col-4">
-                        <ul class="nav nav-pills font-s">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link pl-0 align-bottom text-white" data-toggle="dropdown" href="#"
-                                    role="button" aria-haspopup="true" aria-expanded="false"><b>LOREM</b><span
-                                        class="fas fa-chevron-down font-xs pl-1"></span></a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">LOREM</a>
-                                    <a class="dropdown-item" href="#">IPSUM</a>
-                                    <a class="dropdown-item" href="#">DOLLOR</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">SIT</a>
-                                    <a class="dropdown-item" href="#">AMET</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link pl-0 align-bottom text-white" data-toggle="dropdown" href="#"
-                                    role="button" aria-haspopup="true" aria-expanded="false"><b>IPSUM</b><span
-                                        class="fas fa-chevron-down font-xs pl-1"></span></a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">LOREM</a>
-                                    <a class="dropdown-item" href="#">IPSUM</a>
-                                    <a class="dropdown-item" href="#">DOLLOR</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">SIT</a>
-                                    <a class="dropdown-item" href="#">AMET</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link pl-0 align-bottom text-white" data-toggle="dropdown" href="#"
-                                    role="button" aria-haspopup="true" aria-expanded="false"><b>DOLLOR</b><span
-                                        class="fas fa-chevron-down font-xs pl-1"></span></a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">LOREM</a>
-                                    <a class="dropdown-item" href="#">IPSUM</a>
-                                    <a class="dropdown-item" href="#">DOLLOR</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">SIT</a>
-                                    <a class="dropdown-item" href="#">AMET</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link pl-0 align-bottom text-white" data-toggle="dropdown" href="#"
-                                    role="button" aria-haspopup="true" aria-expanded="false"><b>SIT</b><span
-                                        class="fas fa-chevron-down font-xs pl-1"></span></a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">LOREM</a>
-                                    <a class="dropdown-item" href="#">IPSUM</a>
-                                    <a class="dropdown-item" href="#">DOLLOR</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">SIT</a>
-                                    <a class="dropdown-item" href="#">AMET</a>
-                                </div>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link pl-0 align-bottom text-white" data-toggle="dropdown" href="#"
-                                    role="button" aria-haspopup="true" aria-expanded="false"><b>AMET</b><span
-                                        class="fas fa-chevron-down font-xs pl-1"></span></a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">LOREM</a>
-                                    <a class="dropdown-item" href="#">IPSUM</a>
-                                    <a class="dropdown-item" href="#">DOLLOR</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">SIT</a>
-                                    <a class="dropdown-item" href="#">AMET</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-4 text-center">
-                        <a class="navbar-brand mx-auto">
-                            <img src="./assets/images/qdcar_logo.png">
+
+    <header>
+        <nav class="navbar">
+            <div class="d-flex font-xs w-100">
+                <span class="flex-grow-1"> Olá, bem-vindo! </span>
+                <a onclick="alert('Página de Meus pedidos')">Meus pedidos</a>
+                <a class="pl-4" onclick="alert('Página de Atendimento')">Atendimento</a>
+            </div>
+            <div id="nav-line-2">
+                <ul class="nav nav-pills font-s flex-grow-1">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                            <b>LOREM</b>
+                            <span class="fas fa-chevron-down font-xs"></span>
                         </a>
-                    </div>
-                    <div class="col-3">
-                        <div class="input-group">
-                            <input
-                                class="form-control p-0 search-border rounded-0 bg-transparent"
-                                type="search" placeholder="Estou procurando por..." aria-label="Search">
-                            <div class="input-group-prepend">
-                                <button class="btn btn-link p-0" type="submit">
-                                    <span class="fas fa-search font-xlg text-white"></span>
-                                </button>
-                            </div>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">LOREM</a>
+                            <a class="dropdown-item" href="#">IPSUM</a>
+                            <a class="dropdown-item" href="#">DOLLOR</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">SIT</a>
+                            <a class="dropdown-item" href="#">AMET</a>
                         </div>
-                    </div>
-                    <div class="col-1 p-0 media">
-                        <span id="shopping-cart" class="fas fa-shopping-cart font-xlg"></span>
-                        <p class="font-xs align-top media-body">
-                            (99)<br>
-                            R$ 9.999,00
-                        </p>
-                    </div>
-                </div>
-            </nav>
-        </header>
-
-        <main>
-            <section>
-                <div class="row">
-                    <div class="col-12 mb-3">
-                        <img class="img-fluid" src="./assets/images/car1.jpg">
-                    </div>
-                </div>
-                <div class="row my-4">
-                    <div class="col-sm-6">
-                        <img class="img-fluid" src="./assets/images/car2.jpg">
-                    </div>
-                    <div class="col-sm-6">
-                        <img class="img-fluid" src="./assets/images/car3.jpg">
-                    </div>
-                </div>
-                <div class="row mb-5">
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="./assets/images/car4.jpg">
-                    </div>
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="./assets/images/car5.jpg">
-                    </div>
-                    <div class="col-md-4">
-                        <img class="img-fluid" src="./assets/images/car6.jpg">
-                    </div>
-                </div>
-            </section>
-            <hr>
-            <section class="container">
-                <h3 class="text-center"><b>MAIS DESEJADOS</b></h3>
-                <div class="row mb-5">
-                    <div class="col-3 text-center p-3">
-                        <div class="novo text-white float-left font-xs">
-                            <span class="fas fa-star"></span> novo
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                            <b>IPSUM</b>
+                            <span class="fas fa-chevron-down font-xs"></span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">LOREM</a>
+                            <a class="dropdown-item" href="#">IPSUM</a>
+                            <a class="dropdown-item" href="#">DOLLOR</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">SIT</a>
+                            <a class="dropdown-item" href="#">AMET</a>
                         </div>
-                        <div class="float-right d-flex flex-column text-white font-xs">
-                            <div class="frete-gratis">
-                                <span class="fas fa-truck"></span> frete grátis
-                            </div>
-                            <div class="oferta align-self-end">
-                                <span class="fas fa-certificate"></span> oferta
-                            </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                            <b>DOLLOR</b>
+                            <span class="fas fa-chevron-down font-xs"></span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">LOREM</a>
+                            <a class="dropdown-item" href="#">IPSUM</a>
+                            <a class="dropdown-item" href="#">DOLLOR</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">SIT</a>
+                            <a class="dropdown-item" href="#">AMET</a>
                         </div>
-                        <img class="produto-img" src="./assets/images/produto.jpg">
-                        <b>
-                            <p class="font-s">LOREM IPSUM DOLOR SIT LOREM IPSUM DOLOR SIT AMET</p>
-                            <p class="font-s"><s class="preco-antigo">R$280</s> <span class="preco">R$ 190,00</span><br>
-                                12x de R$ 66,00</p>
-                        </b>
-                        <button class="comprar btn rounded-0 py-0 px-2 font-s" onclick="alert('Enviar para o carrinho')"><span
-                                class="fas fa-shopping-bag"></span>
-                                COMPRAR
-                        </button>
-                    </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                            <b>SIT</b>
+                            <span class="fas fa-chevron-down font-xs"></span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">LOREM</a>
+                            <a class="dropdown-item" href="#">IPSUM</a>
+                            <a class="dropdown-item" href="#">DOLLOR</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">SIT</a>
+                            <a class="dropdown-item" href="#">AMET</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                            aria-expanded="false">
+                            <b>AMET</b>
+                            <span class="fas fa-chevron-down font-xs"></span>
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">LOREM</a>
+                            <a class="dropdown-item" href="#">IPSUM</a>
+                            <a class="dropdown-item" href="#">DOLLOR</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">SIT</a>
+                            <a class="dropdown-item" href="#">AMET</a>
+                        </div>
+                    </li>
+                </ul>
+                <a class="navbar-brand">
+                    <img alt="brand" src="./assets/images/qdcar_logo.png">
+                </a>
+                <div>
+                    <input id="search-input" class="border-0 rounded-0 bg-transparent" type="search"
+                        placeholder="Estou procurando por..." aria-label="Search">
+                    <button class="btn btn-link border-0 p-0 mt-2" type="submit">
+                        <span class="fas fa-search font-lg text-white"></span>
+                    </button>
                 </div>
-            </section>
-        </main>
-
-        <footer class="footer-bg1">
-            <div class="row p-3 mb-5">
-                <div class="col-12">
-                    <h3 class="text-center mb-4"><b>RECEBA AS NOVIDADES</b></h3>
-                </div>
-                <div class="col-6">
-                    <div class="bg-dark banner text-white text-center m-auto">
-                        <span class="d-inline-block align-middle">
-                            BANNER
-                        </span>
-                    </div>
-                </div>
-                <div class="col-6 d-flex flex-column justify-content-between">
-                    <p class="font-s">
-                        RECEBA NOVIDADES E OFERTAS COM DESCONTOS EXCLUSIVOS DIRETAMENTE NO SEU E-MAIL!
+                <div class="media">
+                    <span id="shopping-cart" class="fas fa-shopping-cart font-xlg align-self-end"></span>
+                    <p class="font-xs media-body m-0"> (99)<br> R$ 9.999,00
                     </p>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                            <span
-                                class="input-group-text p-0 mt-2 fas fa-envelope bg-transparent rounded-0 border-top-0 border-left-0 border-right-0 border-dark"
-                                id="basic-addon1"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid p-0">
+        <section>
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <img class="img-fluid" src="./assets/images/car1.jpg">
+                </div>
+            </div>
+            <div class="row my-4">
+                <div class="col-sm-6">
+                    <img class="img-fluid" src="./assets/images/car2.jpg">
+                </div>
+                <div class="col-sm-6">
+                    <img class="img-fluid" src="./assets/images/car3.jpg">
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="./assets/images/car4.jpg">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="./assets/images/car5.jpg">
+                </div>
+                <div class="col-md-4">
+                    <img class="img-fluid" src="./assets/images/car6.jpg">
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="container">
+            <h3 class="text-center"><b>MAIS DESEJADOS</b></h3>
+            <div class="row mb-5">
+                <div class="col-3 text-center p-3">
+                    <div class="novo text-white float-left font-xs">
+                        <span class="fas fa-star"></span> novo
+                    </div>
+                    <div class="float-right d-flex flex-column text-white font-xs">
+                        <div class="frete-gratis">
+                            <span class="fas fa-truck"></span> frete grátis
                         </div>
-                        <input type="email"
-                            class="form-control mr-5 bg-transparent border-left-0 border-top-0 border-right-0 border-dark"
-                            placeholder="Digite seu e-mail" aria-label="Username" aria-describedby="basic-addon1">
-                        <button class="btn btn-dark font-s float-right rounded-0 px-5" type="submit">OK</button>
+                        <div class="oferta align-self-end">
+                            <span class="fas fa-certificate"></span> oferta
+                        </div>
                     </div>
-                    <div>
-                        <span class="fab fa-instagram bg-white rounded-circle text-center m-1 p-1 social-logos"></span>
-                        <span class="fab fa-facebook-f bg-white rounded-circle text-center m-1 p-1 social-logos"></span>
-                        <span class="fab fa-youtube bg-white rounded-circle text-center m-1 p-1 social-logos"> </span>
-                    </div>
+                    <img class="produto-img" src="./assets/images/produto.jpg">
+                    <b>
+                        <p class="font-s">LOREM IPSUM DOLOR SIT LOREM IPSUM DOLOR SIT AMET</p>
+                        <p class="font-s"><s class="preco-antigo">R$280</s> <span class="preco">R$ 190,00</span><br>
+                            12x de R$ 66,00</p>
+                    </b>
+                    <button class="comprar btn rounded-0 py-0 px-2 font-s"
+                        onclick="alert('Enviar para o carrinho')"><span class="fas fa-shopping-bag"></span>
+                        COMPRAR
+                    </button>
                 </div>
             </div>
-            <div class="row footer-bg2 text-light p-4">
-                <div class="col-3">
-                    <p class="font-s">
-                        PRECISA DE AJUDA?
-                    </p>
-                    <ul class="font-xs list-unstyled">
-                        <li>
-                            <a onclick="alert('Página Quem somos')">Quem Somos</a>
-                        </li>
-                        <li>
-                            <a onclick="alert('Página Como comprar')">Como comprar</a>
-                        </li>
-                        <li>
-                            <a onclick="alert('Página Trocas & devoluções')">Trocas & devoluções</a>
-                        </li>
-                        <li>
-                            <a onclick="alert('Página Política de entrega')">Política de entrega</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-6 d-flex flex-column justify-content-between">
-                    <img class="mx-auto" src="./assets/images/qdcar_logo.png">
-                    <ul class="list-inline font-xs text-center">
-                        <li class="list-inline-item">
-                            <a onclick="alert('Página Quem Somos')">Quem Somos</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a onclick="alert('Página Loja Física')">Loja Física</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a onclick="alert('Página Seja um revendedor')">Seja um revendedor</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-3 text-right">
-                    <p class="font-s">
-                        ATENDIMENTO
-                    </p>
+        </section>
+    </main>
 
-                    <ul class="list-unstyled font-xs">
-                        <li>
-                            (11)<span class="font-lg">3054-3434</span>
-                        </li>
-                        <li>
-                            <a onclick="alert('Página E-mail')">sac@email.com.br</a>
-                        </li>
-                        <li>
-                            De 2ª a 5ª-feira, das 9 às 18:00h
-                        </li>
-                        <li>
-                            Sexta-feira das 9 às 17:00h
-                        </li>
-                    </ul>
+    <footer class="container-fluid p-0 footer-bg1">
+        <div class="row p-3 mb-5">
+            <div class="col-12">
+                <h3 class="text-center mb-4"><b>RECEBA AS NOVIDADES</b></h3>
+            </div>
+            <div class="col-6">
+                <div class="bg-dark banner text-white text-center m-auto">
+                    <span class="d-inline-block align-middle">
+                        BANNER
+                    </span>
                 </div>
             </div>
-            <div class="row py-3">
-                <div class="col-6 d-flex">
-                    <b class="font-s mr-2">PAGAMENTO</b>
-                    <div>
-                        <img src="./assets/images/visa.png">
-                        <img src="./assets/images/dinners.png">
-                        <img src="./assets/images/amex.png">
-                        <img src="./assets/images/boleto.png">
-                        <img src="./assets/images/mastercard.png">
-                        <img src="./assets/images/hypercard.png">
-                        <img src="./assets/images/moip.png">
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <p class="font-s">
+                    RECEBA NOVIDADES E OFERTAS COM DESCONTOS EXCLUSIVOS DIRETAMENTE NO SEU E-MAIL!
+                </p>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span
+                            class="input-group-text p-0 mt-2 fas fa-envelope bg-transparent rounded-0 border-top-0 border-left-0 border-right-0 border-dark"
+                            id="basic-addon1"></span>
                     </div>
+                    <input type="email"
+                        class="form-control mr-5 bg-transparent border-left-0 border-top-0 border-right-0 border-dark"
+                        placeholder="Digite seu e-mail" aria-label="Username" aria-describedby="basic-addon1">
+                    <button class="btn btn-dark font-s float-right rounded-0 px-5" type="submit">OK</button>
+                </div>
+                <div>
+                    <span class="fab fa-instagram bg-white rounded-circle text-center m-1 p-1 social-logos"></span>
+                    <span class="fab fa-facebook-f bg-white rounded-circle text-center m-1 p-1 social-logos"></span>
+                    <span class="fab fa-youtube bg-white rounded-circle text-center m-1 p-1 social-logos"> </span>
+                </div>
+            </div>
+        </div>
+        <div class="row footer-bg2 text-light p-4">
+            <div class="col-3">
+                <p class="font-s">
+                    PRECISA DE AJUDA?
+                </p>
+                <ul class="font-xs list-unstyled">
+                    <li>
+                        <a onclick="alert('Página Quem somos')">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a onclick="alert('Página Como comprar')">Como comprar</a>
+                    </li>
+                    <li>
+                        <a onclick="alert('Página Trocas & devoluções')">Trocas & devoluções</a>
+                    </li>
+                    <li>
+                        <a onclick="alert('Página Política de entrega')">Política de entrega</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6 d-flex flex-column justify-content-between">
+                <img class="mx-auto" src="./assets/images/qdcar_logo.png">
+                <ul class="list-inline font-xs text-center">
+                    <li class="list-inline-item">
+                        <a onclick="alert('Página Quem Somos')">Quem Somos</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a onclick="alert('Página Loja Física')">Loja Física</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a onclick="alert('Página Seja um revendedor')">Seja um revendedor</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-3 text-right">
+                <p class="font-s">
+                    ATENDIMENTO
+                </p>
 
+                <ul class="list-unstyled font-xs">
+                    <li>
+                        (11)<span class="font-lg">3054-3434</span>
+                    </li>
+                    <li>
+                        <a onclick="alert('Página E-mail')">sac@email.com.br</a>
+                    </li>
+                    <li>
+                        De 2ª a 5ª-feira, das 9 às 18:00h
+                    </li>
+                    <li>
+                        Sexta-feira das 9 às 17:00h
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row py-3">
+            <div class="col-6 d-flex">
+                <b class="font-s mr-2">PAGAMENTO</b>
+                <div>
+                    <img src="./assets/images/visa.png">
+                    <img src="./assets/images/dinners.png">
+                    <img src="./assets/images/amex.png">
+                    <img src="./assets/images/boleto.png">
+                    <img src="./assets/images/mastercard.png">
+                    <img src="./assets/images/hypercard.png">
+                    <img src="./assets/images/moip.png">
                 </div>
-                <div class="col-6 d-flex">
-                    <b class="font-s mr-2">COMPRA 100% SEGURA</b>
-                    <div>
-                        <img src="./assets/images/ebit.png">
-                        <img src="./assets/images/certisign.png">
-                        <img src="./assets/images/clearsale.png">
-                        <img src="./assets/images/selo_pci.png">
-                    </div>
+
+            </div>
+            <div class="col-6 d-flex">
+                <b class="font-s mr-2">COMPRA 100% SEGURA</b>
+                <div>
+                    <img src="./assets/images/ebit.png">
+                    <img src="./assets/images/certisign.png">
+                    <img src="./assets/images/clearsale.png">
+                    <img src="./assets/images/selo_pci.png">
                 </div>
             </div>
-            <div class="row bg-white text-black-50 py-2">
-                <div class="col-6">
-                    <p class="font-xs">&copy; 2013-2015 - Todos os direitos reservados. Razão Social Vestem - CNPJ
-                        12.323.211/0001-44<br>
-                        Avenida Henry Ford, 1716, Parque da Mooca, São Paulo CEP: 03109-000</p>
-                </div>
-                <div class="col-6">
-                    <img class="float-right" src="./assets/images/quatro_design.png">
-                    <img class="float-right mr-3" src="./assets/images/powered_by_vtex.png">
-                </div>
+        </div>
+        <div class="row bg-white text-black-50 py-2">
+            <div class="col-6">
+                <p class="font-xs">&copy; 2013-2015 - Todos os direitos reservados. Razão Social Vestem - CNPJ
+                    12.323.211/0001-44<br>
+                    Avenida Henry Ford, 1716, Parque da Mooca, São Paulo CEP: 03109-000</p>
             </div>
-        </footer>
-    </div>
+            <div class="col-6">
+                <img class="float-right" src="./assets/images/quatro_design.png">
+                <img class="float-right mr-3" src="./assets/images/powered_by_vtex.png">
+            </div>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

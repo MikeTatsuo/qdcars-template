@@ -19,18 +19,21 @@ input[type="email"]::-webkit-input-placeholder {
 }
 input[type="search"]::placeholder {
     color: #fff;
-    font-size: x-small;
-    border-color: #999!important;
+    font-size: 12px;
 }
 input[type="search"]::-moz-placeholder {
     color: #fff;
-    font-size: x-small;
-    border-color: #999!important;
+    font-size: 12px;
 }
 input[type="search"]::-webkit-input-placeholder {
     color: #fff;
-    font-size: x-small;
-    border-color: #999!important;
+    font-size: 12px;
+}
+nav {
+    background: #333;
+    color: #fff;
+    padding-left: 1px!important;
+    padding-right: 1px!important;
 }
 
 /* classes */
@@ -47,16 +50,16 @@ input[type="search"]::-webkit-input-placeholder {
     overflow: hidden;
 }
 .font-lg {
-    font-size: large;
+    font-size: 20px;
 }
 .font-s {
-    font-size: small;
+    font-size: 14px;
 }
 .font-xlg {
-    font-size: x-large;
+    font-size: 25px;
 }
 .font-xs {
-    font-size: x-small;
+    font-size: 12px;
 }
 .footer-bg1{
     background: #e4e4e4;
@@ -73,8 +76,18 @@ input[type="search"]::-webkit-input-placeholder {
 .img-fluid {
     width: 100vw
 }
-.nav-bg {
-    background: #333;
+.nav-link {
+    padding-left: 0px!important;
+    padding-right: 24px!important;
+    color: #fff;
+}
+.navbar-brand {
+    position: absolute!important;
+    width: 100%!important;
+    display: flex!important;
+    justify-content: center!important;
+    margin-top: 6px;
+    margin-left:10px;
 }
 .novo {
     background: #000;
@@ -92,12 +105,6 @@ input[type="search"]::-webkit-input-placeholder {
     width: 190px;
     height: 190px;
 }
-.search-border{
-    border-bottom: 1px solid #999!important;
-    border-top-width: 0px!important;
-    border-right-width: 0px!important;
-    border-left-width: 0px !important;
-}
 .social-logos {
     width: 25px;
     height: 25px;
@@ -106,4 +113,20 @@ input[type="search"]::-webkit-input-placeholder {
 /* ids */
 #shopping-cart {
     color: #f8595f;
+    margin-left: 72px;
+    margin-bottom: 2px;
+    margin-right: 3px;
+}
+#nav-line-2 {
+    margin-top: 18px;
+    width: 100%!important;
+    display: flex;
+    align-items: flex-end!important;
+    justify-content: flex-end!important;
+}
+#search-input {
+    border-bottom: 1px solid #999!important;
+    width: 196px;
+    margin-bottom: 3px;
+    margin-right: 2px;
 }
