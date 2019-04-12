@@ -16,14 +16,27 @@
 <body>
 
     <header>
-        <nav class="navbar">
-            <div class="d-none d-lg-flex font-xs w-100">
+        <nav class="navbar navbar-expand-md navbar-dark d-flex flex-md-column">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-line-2"
+                aria-controls="nav-line-2" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="d-none d-lg-flex font-xs w-100 order-1 aling-self-lg-start">
                 <span class="flex-grow-1"> Olá, bem-vindo! </span>
                 <a onclick="alert('Página de Meus pedidos')">Meus pedidos</a>
                 <a class="pl-4" onclick="alert('Página de Atendimento')">Atendimento</a>
             </div>
-            <div id="nav-line-2">
-                <ul class="nav font-s flex-grow-1 ">
+
+            <div id="nav-line-2"
+                class="order-2 d-md-flex flex-md-row w-100 justify-contente-md-between align-items-md-end">
+
+                <a class="navbar-brand pb-0 pr-4 mr-5 d-md-flex order-1 order-md-2" href="#">
+                    <img class="ml-3" alt="QDCars" src="./assets/images/qdcar_logo.png" />
+                </a>
+
+                <ul class="nav font-s flex-lg-grow-1 navbar-nav order-2 order-md-1">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">
@@ -95,17 +108,16 @@
                         </div>
                     </li>
                 </ul>
-                <a class="navbar-brand">
-                    <img class="ml-3" alt="QDCars" src="./assets/images/qdcar_logo.png" />
-                </a>
-                <div>
+
+                <div class="d-inline-block order-3">
                     <input id="search-input" class="border-0 rounded-0 bg-transparent" type="search"
                         placeholder="Estou procurando por..." aria-label="Search" />
                     <button class="btn btn-link border-0 p-0 mt-2" type="submit">
                         <span class="fas fa-search font-lg text-white"></span>
                     </button>
                 </div>
-                <div class="media">
+
+                <div class="media d-none d-lg-flex order-4">
                     <span id="shopping-cart" class="fas fa-shopping-cart font-xlg align-self-end"></span>
                     <p class="font-xs media-body m-0"> (99)<br /> R$ 9.999,00
                     </p>
@@ -141,7 +153,9 @@
                 </div>
             </div>
         </section>
+
         <hr class="mt-4" />
+
         <section class="container-fluid">
             <h1 class="text-center"><b>MAIS DESEJADOS</b></h1>
             <div class="row mb-5">
@@ -290,6 +304,7 @@
                 </div>
             </div>
         </div>
+
         <div class="row footer-bg2 text-light pt-3">
             <div class="col-12 col-sm-6 col-md-3 pt-md-3 pl-sm-5 text-center text-sm-left order-md-1 order-2">
                 <p class="font-s mb-2 pb-1">
@@ -328,7 +343,6 @@
                 <p class="font-s mb-1">
                     ATENDIMENTO
                 </p>
-
                 <ul class="list-unstyled font-xs">
                     <li>
                         (11)<span class="font-lg">3054-3434</span>
@@ -345,6 +359,7 @@
                 </ul>
             </div>
         </div>
+
         <div class="row pt-4 pb-3">
             <div class="col-6 col-sm-4 d-flex flex-column flex-sm-row">
                 <b class="font-s mr-3">PAGAMENTO</b>
@@ -370,6 +385,7 @@
                 </div>
             </div>
         </div>
+
         <div class="row bg-white text-muted">
             <div class="col-6">
                 <p class="font-xs pt-1 mb-2">&copy; 2013-2015 - Todos os direitos reservados. Razão Social Vestem - CNPJ
