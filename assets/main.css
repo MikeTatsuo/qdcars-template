@@ -39,18 +39,18 @@ input[type="search"]::-webkit-input-placeholder {
 nav {
     background: #333;
     color: #fff;
-    padding-left: 1px !important;
-    padding-right: 1px !important;
+    padding-left: 1px!important;
+    padding-right: 1px!important;
 }
 
 /* classes */
 .comprar {
-    border: 1px solid !important;
-    color: #009200 !important;
+    border: 1px solid!important;
+    color: #009200!important;
     width: 126px;
     height: 30px;
     margin: 5px 12px 3px 0px;
-    padding: 3px 6px !important;
+    padding: 3px 6px!important;
 }
 
 .container-fluid {
@@ -58,19 +58,19 @@ nav {
 }
 
 .font-lg {
-    font-size: 20px !important;
+    font-size: 20px!important;
 }
 
 .font-s {
-    font-size: 14px !important;
+    font-size: 14px!important;
 }
 
 .font-xlg {
-    font-size: 25px !important;
+    font-size: 25px!important;
 }
 
 .font-xs {
-    font-size: 12px !important;
+    font-size: 12px!important;
 }
 
 .footer-bg1 {
@@ -100,18 +100,17 @@ nav {
 }
 
 .nav-link {
-    padding-left: 0px !important;
-    padding-right: 24px !important;
+    padding-left: 0px!important;
+    padding-right: 24px!important;
     color: #fff;
 }
 
 .navbar-brand {
-    position: absolute !important;
-    width: 100% !important;
-    display: flex !important;
-    justify-content: center !important;
+    position: absolute!important;
+    width: 100%!important;
+    display: flex!important;
+    justify-content: center!important;
     margin-top: 6px;
-    margin-left: 10px;
 }
 
 .novo {
@@ -151,16 +150,17 @@ nav {
 .social-logos {
     width: 38px;
     height: 38px;
-    padding: 11px !important;
+    padding: 11px!important;
     margin: 0px 8px 3px 1px;
 }
 
 /* ids */
-#banner {
+#b {
     width: 393px;
     height: 217px;
     line-height: 206px;
-    margin: 6px 0px 2px 93px !important;
+    margin-top: 7px!important;
+    margin-bottom: 2px!important;
     background: #333;
 }
 
@@ -173,12 +173,12 @@ nav {
 }
 
 #email-envelope {
-    margin-bottom: 5px !important;
-    padding: 13px 0px 0px 3px !important;
+    margin-bottom: 5px!important;
+    padding: 13px 0px 0px 3px!important;
 }
 
 #email-input {
-    border-bottom: 1px solid #333 !important;
+    border-bottom: 1px solid #333!important;
     width: 324px;
     margin: 0px 49px 5px 0px;
     padding: 11px 0px 0px 15px;
@@ -186,14 +186,14 @@ nav {
 
 #nav-line-2 {
     margin-top: 18px;
-    width: 100% !important;
+    width: 100%!important;
     display: flex;
-    align-items: flex-end !important;
-    justify-content: flex-end !important;
+    align-items: flex-end!important;
+    justify-content: flex-end!important;
 }
 
 #search-input {
-    border-bottom: 1px solid #999 !important;
+    border-bottom: 1px solid #999!important;
     width: 196px;
     margin-bottom: 3px;
     margin-right: 2px;
