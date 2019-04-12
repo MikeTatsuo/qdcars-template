@@ -5,128 +5,203 @@
 a:hover {
     cursor: pointer;
 }
+
 input[type="email"]::placeholder {
     color: #000;
-    font-size: small;
+    font-size: 12px;
 }
+
 input[type="email"]::-moz-placeholder {
     color: #000;
-    font-size: small;
+    font-size: 12px;
 }
+
 input[type="email"]::-webkit-input-placeholder {
     color: #000;
-    font-size: small;
+    font-size: 12px;
 }
+
 input[type="search"]::placeholder {
     color: #fff;
     font-size: 12px;
 }
+
 input[type="search"]::-moz-placeholder {
     color: #fff;
     font-size: 12px;
 }
+
 input[type="search"]::-webkit-input-placeholder {
     color: #fff;
     font-size: 12px;
 }
+
 nav {
     background: #333;
     color: #fff;
-    padding-left: 1px!important;
-    padding-right: 1px!important;
+    padding-left: 1px !important;
+    padding-right: 1px !important;
 }
 
 /* classes */
-.banner {
-    width: 395px;
-    height: 220px;
-    line-height: 220px;
-}
 .comprar {
-    border: 1px solid!important;
-    color: #009200!important;;
+    border: 1px solid !important;
+    color: #009200 !important;
+    width: 126px;
+    height: 30px;
+    margin: 5px 12px 3px 0px;
+    padding: 3px 6px !important;
 }
+
 .container-fluid {
     overflow: hidden;
 }
+
 .font-lg {
-    font-size: 20px;
+    font-size: 20px !important;
 }
+
 .font-s {
-    font-size: 14px;
+    font-size: 14px !important;
 }
+
 .font-xlg {
-    font-size: 25px;
+    font-size: 25px !important;
 }
+
 .font-xs {
-    font-size: 12px;
+    font-size: 12px !important;
 }
-.footer-bg1{
+
+.footer-bg1 {
     background: #e4e4e4;
 }
+
 .footer-bg2 {
     background: #333;
 }
-.footer-banner{
-    background:#999;
+
+.footer-banner {
+    background: #999;
 }
+
 .frete-gratis {
+    top: 0;
+    right: 0;
     background: #0082a7;
+    position: absolute;
+    margin-top: 11px;
+    margin-right: 25px;
+    padding: 1px 4px;
 }
+
 .img-fluid {
     width: 100vw
 }
+
 .nav-link {
-    padding-left: 0px!important;
-    padding-right: 24px!important;
+    padding-left: 0px !important;
+    padding-right: 24px !important;
     color: #fff;
 }
+
 .navbar-brand {
-    position: absolute!important;
-    width: 100%!important;
-    display: flex!important;
-    justify-content: center!important;
+    position: absolute !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
     margin-top: 6px;
-    margin-left:10px;
+    margin-left: 10px;
 }
+
 .novo {
+    left: 0;
+    top: 0;
     background: #000;
+    position: absolute;
+    margin-top: 11px;
+    margin-left: 25px;
+    padding: 1px 5px;
 }
+
 .oferta {
+    right: 0;
+    top: 0;
     background: #de006f;
+    position: absolute;
+    margin-top: 32px;
+    margin-right: 26px;
+    padding: 1px 6px;
 }
+
 .preco {
     color: #f8595f;
 }
+
 .preco-antigo {
     color: #999;
 }
+
 .produto-img {
     width: 190px;
     height: 190px;
+    margin-bottom: 32px;
 }
+
 .social-logos {
-    width: 25px;
-    height: 25px;
+    width: 38px;
+    height: 38px;
+    padding: 11px !important;
+    margin: 0px 8px 3px 1px;
 }
 
 /* ids */
+#banner {
+    width: 393px;
+    height: 217px;
+    line-height: 206px;
+    margin: 6px 0px 2px 93px !important;
+    background: #333;
+}
+
+#email-button {
+    background: #333;
+    color: #fff;
+    width: 146px;
+    height: 40px;
+    margin: 7px 0px 0px 0px;
+}
+
+#email-envelope {
+    margin-bottom: 5px !important;
+    padding: 13px 0px 0px 3px !important;
+}
+
+#email-input {
+    border-bottom: 1px solid #333 !important;
+    width: 324px;
+    margin: 0px 49px 5px 0px;
+    padding: 11px 0px 0px 15px;
+}
+
+#nav-line-2 {
+    margin-top: 18px;
+    width: 100% !important;
+    display: flex;
+    align-items: flex-end !important;
+    justify-content: flex-end !important;
+}
+
+#search-input {
+    border-bottom: 1px solid #999 !important;
+    width: 196px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+
 #shopping-cart {
     color: #f8595f;
     margin-left: 72px;
     margin-bottom: 2px;
     margin-right: 3px;
-}
-#nav-line-2 {
-    margin-top: 18px;
-    width: 100%!important;
-    display: flex;
-    align-items: flex-end!important;
-    justify-content: flex-end!important;
-}
-#search-input {
-    border-bottom: 1px solid #999!important;
-    width: 196px;
-    margin-bottom: 3px;
-    margin-right: 2px;
 }
